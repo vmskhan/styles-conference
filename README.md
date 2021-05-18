@@ -1,2 +1,2 @@
-# styles-conference
-Following Shay Howe's guide to learn and create a website
+# web-development
+Learning HTML,CSS and JavaScript and creating websites as practice
