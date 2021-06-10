@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*  -------------------------------------
+    -------------------------------------
+    CSS RESET
+    --------------------------------------
+    --------------------------------------
+*/
+
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+
+}
+
+/*  --------------------------------------
+    ---------------------------------------
+    PRIMARY HEADER
+    ----------------------------------------
+    ----------------------------------------
+*/
+
+.primary-header{
+    /* background:linear-gradient(to left,rgba(255, 0, 0, 0.6),rgba(0, 0, 255, 0.6)); */
+     /* background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)); */ 
+    background-size:cover;
+    /* background-position:0px 900px; */
+    height:400px;
+    text-align:center;
+}
+.primary-header div{
+    padding-top:150px;
+}
+.primary-header div h1{
+    font-size:60px;
+    color:aquamarine;
+    text-shadow: 2px 3px 4px black;
+}
+
+/*
+    -------------------------------------------
+    -------------------------------------------
+    Sections
+    --------------------------------------------
+    ---------------------------------------------
+*/
+.back-img{
+    height: 100%;
+    width:100%;
+    background-image: url(../images/palm.jpg); 
+    background-size:cover;
+    background-repeat: no-repeat;
+    position:fixed;
+    z-index:-1;
+
+}
+a.home {
+    font-size:30px;
+    font-weight:bold;
+    color:aquamarine;
+    text-shadow: 2px 3px 4px black;
+    text-decoration:none;
+    position:absolute;
+    top:10px;
+    left:10px;
+}
+
+/*
+    ------------------------------------------------------
+    ------------------------------------------------------
+    Sections
+    ------------------------------------------------------
+    -------------------------------------------------------
+*/
+.proj-display div.sec-back{
+    /* background:rgb(255,94,0); */
+    /* background:linear-gradient(rgba(255, 94, 0, 0.6),rgba(255,94,0,0.6)); */
+    width:70%;
+    margin:0 15%;
+
+}
+.proj-display div.sec-back section{
+    width:100%;
+    margin: 5px auto;   
+}
+section  details{
+    height:100%;
+    text-align:center;
+}
+main.proj-display div.sec-back section details summary h2{
+    display:inline-block;
+    color:goldenrod;
+    text-shadow:0px 0px 10px red;
+} 
+.proj-display div.sec-back div{
+   height:inherit;
+   background:azure;
+   border:5px solid orangered;
+   
+}
+.proj-display div section h2{
+    text-align:center;
+    font-size:30px;
+    color:aquamarine;
+    /* background:rgb(0,255,0); */
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+}
+.proj-display section img,
+.proj-display section p{
+    float:left;
+    width:50%;
+} 
+.proj-display section img{
+    width:50%;
+    height:100%;
+    border-right:5px solid orangered;
+}
+main.proj-display div.sec-back section details div{
+    height:100%;
+}
+main.proj-display div.sec-back section details summary{
+    font-size:40px;
+}
+.proj-display div::after{
+    clear:both;
+    content:"";
+    display:block;
+}
+.proj-display div.sec-back section.sec-1 img{
+    height:300px;
+}
+
+
+
+/*Media Query*/
+
+
+@media(max-width:500px){
+    .proj-display div.sec-back{
+        width:90%;
+        margin:0 5%;
+    }
+    .proj-display section img,
+    .proj-display section p{
+    float:none;
+    }
+    .proj-display section img{
+        width:100%;
+        border-right:none;
+        border-bottom:5px solid orangered;
+    }
+    .proj-display section p{
+        margin-top:3vh;
+        width:100%;
+    } 
+    
+}
