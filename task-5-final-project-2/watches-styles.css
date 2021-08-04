@@ -1,0 +1,58 @@
+.callout{
+    background:rgb(252, 186, 20);
+    list-style:none!important;
+    border-radius:0 0 20% 20%;
+    box-shadow: 1px 3px 5px black;
+}
+.my-link{
+    border-radius:0 0 20% 20%;
+    color: aquamarine !important; 
+     box-shadow:1px 1px 3px black;
+     background-color:black!important; rgb(224, 0, 224);
+     font-weight:900 !important;
+}
+.my-link:hover{
+    color:lightblue !important;
+}
+.my-text-color{
+    color:aquamarine!important;
+    font-weight:900 !important;
+    text-shadow:2px 2px black;
+    background-color:black!important;
+}
+.my-text-color:hover{
+    color:red !important;
+}
+.my-text-color1{
+    color:blue !important;
+}
+.img-style{
+	border-radius:50% 50% 50% 50% ;
+}
+.mynav{
+	align-self:flex-start;
+}
+/*Fix for sticky items*/
+.mystyle1{
+	top:12%;
+}
+.my-ham-style{
+	height:50%;
+}
+.textColor{
+	color:aquamarine;
+}
+.my-nav-border{
+	border:5px solid goldenrod;
+}
+.my-overflow{
+	overflow-y:scroll!important;
+	height:500px;
+	}
+.chgindex{
+	z-index:1021;	
+}
+.mycolor{
+	color:aquamarine!important;
+	text-shadow:1px 1px 1px black;
+}
